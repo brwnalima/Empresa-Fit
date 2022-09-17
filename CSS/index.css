@@ -1,8 +1,25 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+    --cor1: #8AC24A;
+    --cor2: #ffffff;
+
+}
+
 .parteUm {
-    text-align: center;
+    background-color: var(--cor1);
+    margin: 0%;
+    padding: 7px;
+    
 }
 
 .parteUm p {
     text-align: center;
-    font-size: large;
+    font-size: 11px;
+    color: var(--cor2);
 }
