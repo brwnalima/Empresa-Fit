@@ -43,14 +43,26 @@
     margin-left: 4px;
 }
 
-.menu-header {
+#menu-header {
 
+    list-style: none;
+    padding: 0;
     text-align: center;
-    display:flex;
-    justify-content: center;
+}
 
+#menu-header li {
+
+    display: inline;
+
+}
+
+#menu-header li a {
+
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    text-decoration: none;
+    display: inline;
     
-
 }
 
 .parteDois a {
