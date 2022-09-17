@@ -27,11 +27,46 @@
 .parteDois {
 
     background-color: var(--cor3);
+    padding: 20px;
+    align-content: center;
+    margin: auto;
 
-
+    
 }
 
 #logo {
-    width: 50%;
-    border-radius: 1000%;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-bottom: 2p;
+    margin-left: 4px;
+}
+
+.menu-header {
+
+    text-align: center;
+    display:flex;
+    justify-content: center;
+
+    
+
+}
+
+.parteDois a {
+
+    color: black;
+    padding: 5px 30px;
+    border: 1px solid var(--cor5);
+    text-decoration: none;
+    display: flex;
+    transition: .5s ease-in-out;
+    text-transform: uppercase;
+    align-items: center;
+
+}
+
+a:hover {
+
+    background-color: var(--cor1);
 }
