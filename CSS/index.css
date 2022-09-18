@@ -82,3 +82,14 @@ a:hover {
 
     background-color: var(--cor1);
 }
+
+@media (max-width: 999px){
+    .nav-list {
+    position:absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #ffffff;
+    }
+}
