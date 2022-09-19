@@ -28,15 +28,17 @@
 
     background-color: var(--cor3);
     padding: 20px;
-    align-content: center;
     text-transform: uppercase;
+
+
+
+}
+
+.container-itens {
     display: inline-flex;
-   
-    
 }
 
 .item1 {
-    
     width: 200px;
     height: 70px;
 }
@@ -45,6 +47,7 @@
 
     align-self: center;
     
+    margin: auto;
     
 }
 
