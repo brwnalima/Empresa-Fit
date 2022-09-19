@@ -31,6 +31,7 @@
     align-content: center;
     text-transform: uppercase;
     display: inline-flex;
+   
     
 }
 
@@ -44,6 +45,13 @@
 
     align-self: center;
     justify-content: center;
+    
+    
+}
+
+.item3 {
+    background-color: red;
+    padding: 50px;
     
 }
 
@@ -81,7 +89,7 @@
     
 }
 
-.parteDois a {
+.item2 a {
 
     color: black;
     padding: 5px 30px;
