@@ -24,23 +24,37 @@
     color: var(--cor2);
 }
 
-.parteDois {
+.container {
 
     background-color: var(--cor3);
     padding: 20px;
     align-content: center;
-    margin: auto;
+    text-transform: uppercase;
+    display: inline-flex;
+    
+}
 
+.item1 {
+    
+    width: 200px;
+    height: 70px;
+}
+
+.item2 {
+
+    align-self: center;
+    justify-content: center;
     
 }
 
 #logo {
-    width: 15%;
-    height: 20%;
+    width: 100%;
+    height: 100%;
     border-radius: 100%;
     margin-top: 2px;
     margin-bottom: 2p;
     margin-left: 4px;
+    align-content: end;
 }
 
 #menu-header {
@@ -48,8 +62,8 @@
     list-style: none;
     padding: 0;
     text-align: center;
-    max-width: fit-content;
-    min-width: fit-content;
+    
+    
 }
 
 #menu-header li {
@@ -111,3 +125,5 @@ a:hover {
     flex-direction: column;
     }
 }
+
+
