@@ -1,0 +1,164 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+    --cor1: #8AC24A;
+    --cor2: #ffffff;
+    --cor3: #f5f5f5;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    overflow: hidden;
+
+}
+
+
+.parteUm {
+    background-color: var(--cor1);
+    padding: 7px;
+    
+}
+
+.parteUm p {
+    text-align: center;
+    font-size: 11px;
+    color: var(--cor2);
+}
+
+.container {
+
+    background-color: var(--cor3);
+    padding: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-items: center;
+    max-width: 1800px;
+    min-width: 800px;
+
+}
+
+.container-itens {
+    display: inline-flex;
+    
+}
+
+.item1 {
+    width: 200px;
+    height: 70px;
+}
+
+.item2 {
+
+    align-self: center;
+    margin: auto;
+  
+}
+
+.item3 {
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item4 {
+    width: 50px;
+    height: 45px;
+}
+
+.container-2 {
+    background-color: red;
+    padding: 50px;
+    
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+    margin-top: 2px;
+    margin-bottom: 2p;
+    margin-left: 4px;
+    align-content: end;
+}
+
+#menu-header {
+
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    
+    
+}
+
+#menu-header li {
+
+    display: inline;
+
+}
+
+#menu-header li a {
+
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    text-decoration: none;
+    display: inline;
+    
+}
+
+.item2 a {
+
+    color: black;
+    padding: 5px 30px;
+    border: 1px solid var(--cor5);
+    text-decoration: none;
+    display: flex;
+    transition: .5s ease-in-out;
+    text-transform: uppercase;
+    align-items: center;
+
+}
+
+a:hover {
+
+    background-color: var(--cor1);
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+
+
+.mobile-menu div {
+    width: 50px;
+    height: 2px;
+    background: #000000;
+    margin: 8px;
+}
+
+
+@media (max-width: 999px){
+    .nav-list {
+    position:absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #ffffff;
+    flex-direction: column;
+    }
+}
+
+
