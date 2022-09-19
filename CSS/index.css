@@ -48,6 +48,8 @@
     list-style: none;
     padding: 0;
     text-align: center;
+    max-width: fit-content;
+    min-width: fit-content;
 }
 
 #menu-header li {
