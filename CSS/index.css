@@ -43,7 +43,8 @@ body {
     display: flex;
     justify-items: center;
     max-width: 1800px;
-    min-width: 800px;
+    min-width: 800px
+    ;
 
 }
 
