@@ -6,7 +6,7 @@
     --header-height: 4.5rem;
 
     /*---------------COLLORS -------------------*/
-    --first-color: #2b9348;
+    --first-color: #69B550;
     --first-color_alt: #1d7a37;
     --first-color_alt_light: #36ba5b;
     --light-color: #ffffff;
@@ -193,7 +193,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 
@@ -234,8 +234,9 @@ img {
 .logo{
     font-family: var(--font-logo);
     font-size: var(--h1-font-size);
-    padding-top: 3rem;
-    background: linear-gradient(to right, #2B9348 0%, #80B918 100%);
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+    background: linear-gradient(to right, #2B9348 0%, #69B550 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -243,9 +244,9 @@ img {
 }
 
 .img-logo {
-    width: 40%;
-    height: 40%;
-    display: inline-flex;
+    max-width: 45%;
+    height: auto;
+    
 }
 
 .nav__item .btn{
@@ -729,8 +730,9 @@ textarea {
     }
 
     .home__img {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
+        margin-top: 30px;
     }
 
 }
