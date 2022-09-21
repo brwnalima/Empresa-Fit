@@ -212,10 +212,12 @@ img {
         box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.145);
         z-index: var(--z-tooltip);
         transition: 0.4s;
+        margin-left: 25%;
     }
 
     .nav__menu .logo{
         padding-left: 4rem;
+        
     }
 
     .nav__menu .nav__item {
@@ -244,7 +246,7 @@ img {
 }
 
 .img-logo {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin-top: 4px;
     
