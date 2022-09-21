@@ -440,6 +440,7 @@ img {
     color: var(--first-color);
     margin-top: var(--mb-2);
     margin-left: var(--mb-2);
+    text-align: center;
 }
 
 .card__data .card__descripition {
