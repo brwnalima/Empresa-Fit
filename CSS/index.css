@@ -101,29 +101,6 @@ img {
     letter-spacing: 6px;
 }
 
-.btn-outline {
-    width: 100%;
-    background-color:transparent;
-    border: 1px solid var(--first-color);
-    color: var(--first-color);
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem 1.5rem;
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-bold);
-    letter-spacing: 4px;
-    text-align: center;
-    outline: none;
-    border-radius: 6px;
-    display: inline-block;
-    margin: 0 auto;
-    transition: all 0.4s ease-in-out;
-}
-
-.btn-outline:hover {
-    background-color: var(--first-color_alt);
-    border: 1px solid var(--light-color);
-    color: var(--light-color);
-}
 
 /*--------------- CLASS CSS-------------------*/
 .section {
@@ -194,6 +171,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 5rem 0;
+
 }
 
 
@@ -536,7 +514,7 @@ textarea {
     margin-bottom: var(--mb-5);
 }
 
-.company .img {
+.company .logo {
     font-family: var(--font-logo);
     font-size: var(--h3-font-size);
     line-height: 29px;
@@ -667,6 +645,7 @@ textarea {
     
     .nav__item{
         margin-left: var(--mb-3);
+
     }
     
     .nav__link{

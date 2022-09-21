@@ -134,6 +134,7 @@ img {
 .section-title,
 .section-subtitle {
     text-align: center;
+    font-family: 'Bebas Neue';
 }
 
 .section-title {
@@ -195,6 +196,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 5rem 0;
+
 }
 
 
@@ -213,10 +215,12 @@ img {
         box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.145);
         z-index: var(--z-tooltip);
         transition: 0.4s;
+        
     }
 
     .nav__menu .logo{
         padding-left: 4rem;
+        
     }
 
     .nav__menu .nav__item {
@@ -245,7 +249,7 @@ img {
 }
 
 .img-logo {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin-top: 4px;
     
@@ -590,6 +594,13 @@ textarea {
 
 
 /*--------------FOOTER-----------------*/
+
+.footer section {
+
+    background-color: var(--light-color);
+}
+
+
 .footer__container {
     display: flex;
     justify-content: center;
@@ -604,6 +615,7 @@ textarea {
     display: flex;
     flex-direction: column;
     margin-bottom: var(--mb-5);
+    size: 10%;
 }
 
 .company .logo {
@@ -612,6 +624,11 @@ textarea {
     line-height: 29px;
     color: var(--first-color);
     letter-spacing: 4px;
+}
+
+.footer-logo {
+    width: 30%;
+    margin: auto;
 }
 
 .company small {

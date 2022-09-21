@@ -195,6 +195,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 5rem 0;
+
 }
 
 
@@ -204,19 +205,21 @@ img {
         position: absolute;
         top: 0;
         right: -100%;
-        width: 50%;
+        width: 40%;
         height: 100vh;
         text-align: right;
         padding: 0 2rem;
         background-color: var(--container-color);
-        border-radius: 150px 0 0 0;
-        box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 15px 0 0 0;
+        box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.145);
         z-index: var(--z-tooltip);
         transition: 0.4s;
+        
     }
 
     .nav__menu .logo{
         padding-left: 4rem;
+        
     }
 
     .nav__menu .nav__item {
@@ -245,8 +248,9 @@ img {
 }
 
 .img-logo {
-    max-width: 45%;
+    max-width: 50%;
     height: auto;
+    margin-top: 4px;
     
 }
 
