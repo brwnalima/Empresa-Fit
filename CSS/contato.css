@@ -319,168 +319,12 @@ img {
     bottom: 1rem;
 }
 
-/*------------SOBRE---------------*/
-.about__container {
-    padding: 0 2rem;
-}
-
-.about__chefs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: var(--mb-3);
-}
-
-.chefs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.chefs .img__chefs {
-    width: 180px;
-    transition: 0.4s;
-}
-
-.chefs .img__chefs:hover {
-    transform: scale(1.1);
-}
-
-.chefs span {
-    font-size: var(--small-font-size);
-    color: var(--text-color);
-    margin-top: 1rem;
-}
-
-.about__data {
-    margin-top: var(--mb-4);
-    background-color: var(--light-color);
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-}
-
-.about__data .section-text {
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
-    line-height: 32px;
-}
-
-/*---------- CARDAPIO------------*/
-.cardapio__container {
-    padding: 1rem 4rem;
-}
-
-.card {
-    position: relative;
-    border-radius: 8px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-    margin-top: var(--mb-4);
-    margin-bottom: var(--mb-4);
-    transition: 0.4s;
-}
-
-.card:hover {
-    transform: scale(1.1);
-}
-
-.card img {
-    border-radius: 8px 8px 0 0;
-}
-
-.card__data {
-    height: 6rem;
-}
-
-.card__data h3 {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-    color: var(--first-color);
-    margin-top: var(--mb-2);
-    margin-left: var(--mb-2);
-}
-
-.card__data .card__descripition {
-    margin-left: var(--mb-2);
-}
-
-.card__data small {
-    font-weight: var(--font-light);
-    font-size: var(--normal-font-size);
-    margin-top: var(--mb-2);
-    margin-bottom: var(--mb-4);
-}
-
-.card__preci {
-    margin-top: var(--mb-3);
-}
-
-.card__preci span {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-    position: relative;
-    left: 1rem;
-    bottom: 1rem;
-}
-
-.card__cart {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    font-size: 1.6rem;
-    color: var(--light-color);
-    background-color: var(--first-color);
-    border-radius: 6px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.card__cart:hover {
-    background-color: var(--first-color_alt);
-}
-
-/*----------DELIVERY-----------*/
-.delivery {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/bg-delivery.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.delivery__container {
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 6px;
-    padding: 1rem;
-}
-.delivery__data h1{
-    margin: 0;
-}
-
-.delivery__data {
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 2rem;
-}
-
-.delivery__data a {
-    width: 50%;
-    margin-top: var(--mb-3);
-    letter-spacing: 3px;
-}
-
 /*----------CONTATO---------*/
+
+#contato {
+    background-color: var(--container-color);
+}
+
 .contato__container {
     padding: 1rem 2rem;
 }
@@ -488,6 +332,13 @@ img {
 .contato__cta {
     margin-bottom: var(--mb-3);
     text-align: center;
+    margin-top: var(--mb-1);
+    margin-right: var(--mb-2);
+}
+
+hr {
+    background-color: var(--first-color_alt_light);
+    height: 3px;
 }
 
 .contato__title {
@@ -543,50 +394,7 @@ textarea {
     bottom: 0;
 }
 
-/*---------COMPARTILHAR-----------*/
-.compartilhar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-image: url(../img/bg-compartilar.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.compartilhar__container .section-title {
-    margin-top: var(--mb-3);
-}
-
-.compartilhar__container p {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-}
-
-.compartilhar__social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: var(--mb-2);
-    margin-bottom: var(--mb-3);
-}
-.compartilhar__social:hover > .insta,
-.compartilhar__social:hover > a{
-    color: var(--text-color);
-}
-
-.compartilhar__social a,
-.insta {
-    font-weight: var(--font-medium);
-    font-size: var(--h2-font-size);
-    color: var(--first-color);
-}
-
-.insta {
-    margin-top: var(--mb-1);
-    margin-right: var(--mb-1);
-}
 
 
 /*--------------FOOTER-----------------*/
