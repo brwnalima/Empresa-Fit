@@ -1,5 +1,6 @@
 /*---------------GOOGLE FONTS-------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Spice&family=Secular+One&display=swap');
 
 /*---------------VARIABLES CSS-------------------*/
 :root {
@@ -16,7 +17,8 @@
 
     /*---------------FONT  AND TYPOGRAPHY-------------------*/
     --body-font: "Lato", sans-serif;
-    --font-logo: 'Italiana', serif;
+    --font-logo: 'Secular One', sans-serif;
+    --font-logoFit: 'Blaka Ink', cursive;
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -134,7 +136,7 @@ img {
 .section-title,
 .section-subtitle {
     text-align: center;
-    font-family: 'Bebas Neue';
+    font-family: 'Secular One', sans-serif;
 }
 
 .section-title {
@@ -333,18 +335,22 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: var(--mb-3);
+    margin-top: var(--mb-2);
+    margin-right: var(--mb-3);
+    
 }
 
 .chefs {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    font-family: var(--body-font) var(--font-bold);
+    
 }
 
 .chefs .img__chefs {
-    width: 180px;
+    width: 400px;
     transition: 0.4s;
 }
 

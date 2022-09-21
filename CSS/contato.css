@@ -1,5 +1,6 @@
 /*---------------GOOGLE FONTS-------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Spice&family=Secular+One&display=swap');
 
 /*---------------VARIABLES CSS-------------------*/
 :root {
@@ -7,8 +8,8 @@
 
     /*---------------COLLORS -------------------*/
     --first-color: #69B550;
-    --first-color_alt: #1d7a37;
-    --first-color_alt_light: #36ba5b;
+    --first-color_alt: #f58736;
+    --first-color_alt_light: #FAB62B;
     --light-color: #ffffff;
     --text-color: #171f07;
     --body-color: #ffffff;
@@ -16,7 +17,8 @@
 
     /*---------------FONT  AND TYPOGRAPHY-------------------*/
     --body-font: "Lato", sans-serif;
-    --font-logo: 'Italiana', serif;
+    --font-logo: 'Secular One', sans-serif;
+    --font-logoFit: 'Blaka Ink', cursive;
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
