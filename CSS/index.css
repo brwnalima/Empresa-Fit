@@ -322,6 +322,7 @@ img {
 
 .home {
     background-color: var(--container-color);
+    
 }
 
 .home__container {
@@ -366,7 +367,7 @@ img {
 
 /*----------DELIVERY-----------*/
 .delivery {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -381,6 +382,7 @@ img {
     border-radius: 6px;
     padding: 1rem;
 }
+
 .delivery__data h1{
     margin: 0;
 }
@@ -509,6 +511,13 @@ textarea {
 
 
 /*--------------FOOTER-----------------*/
+
+.footer section {
+
+    background-color: var(--light-color);
+}
+
+
 .footer__container {
     display: flex;
     justify-content: center;
@@ -525,12 +534,17 @@ textarea {
     margin-bottom: var(--mb-5);
 }
 
-.company .logo {
+.company .img {
     font-family: var(--font-logo);
     font-size: var(--h3-font-size);
     line-height: 29px;
     color: var(--first-color);
     letter-spacing: 4px;
+}
+
+.footer-logo {
+    width: 30%;
+    margin: auto;
 }
 
 .company small {
@@ -598,7 +612,7 @@ textarea {
     }
     
     .home {
-        margin-top: 20px;
+        margin-top: 150px;
     }
 
 }
@@ -616,16 +630,14 @@ textarea {
         margin: 0 2rem;
     }
     .home__container {
-        padding: 3rem 2rem;
-        margin-top: 20px;
+        padding: 3rem 3rem;
+        
     }
-
 
     .home__img {
         width: 100%;
         margin: 0 auto;
-        margin-top: 100px;
-        
+        margin-top: 100px;  
         
     }
 
