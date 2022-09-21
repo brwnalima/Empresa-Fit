@@ -212,7 +212,7 @@ img {
         box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.145);
         z-index: var(--z-tooltip);
         transition: 0.4s;
-        margin-left: 25%;
+        
     }
 
     .nav__menu .logo{
@@ -621,7 +621,14 @@ textarea {
     
     .home {
         margin-top: 150px;
+
     }
+
+    .home__container {
+        padding: 8rem 1rem;
+        
+    }
+    
 
 }
 
