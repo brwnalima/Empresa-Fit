@@ -615,7 +615,7 @@ textarea {
     display: flex;
     flex-direction: column;
     margin-bottom: var(--mb-5);
-    size: 10%;
+    
 }
 
 .company .logo {
@@ -693,6 +693,7 @@ textarea {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media (min-width: 768px) {
