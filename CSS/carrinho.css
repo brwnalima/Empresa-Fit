@@ -134,7 +134,6 @@ img {
 .section-title,
 .section-subtitle {
     text-align: center;
-    font-family: 'Bebas Neue';
 }
 
 .section-title {
@@ -323,6 +322,43 @@ img {
     bottom: 1rem;
 }
 
+/*-------------HOME---------------*/
+.home__container {
+    padding: 2rem 1rem;
+}
+
+.home__data {
+    text-align: center;
+    margin-bottom: var(--mb-3);
+}
+
+.home__title {
+    font-size: var(--h1-font-size);
+    color: var(--text-color);
+}
+
+.home__title span {
+    font-family: var(--font-logo);
+    font-size: var(--big-font-size);
+    letter-spacing: 4px;
+    color: var(--first-color);
+}
+
+.home__subtitle {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    margin-bottom: var(--mb-5);
+}
+
+.home__btn {
+    padding: 0 3rem;
+}
+
+.home__btn a {
+    margin-bottom: 1rem;
+}
+
 /*------------SOBRE---------------*/
 .about__container {
     padding: 0 2rem;
@@ -372,235 +408,7 @@ img {
     line-height: 32px;
 }
 
-/*---------- CARDAPIO------------*/
-.cardapio__container {
-    padding: 1rem 4rem;
-}
-
-.card {
-    position: relative;
-    border-radius: 8px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-    margin-top: var(--mb-4);
-    margin-bottom: var(--mb-4);
-    transition: 0.4s;
-}
-
-.card:hover {
-    transform: scale(1.1);
-}
-
-.card img {
-    border-radius: 8px 8px 0 0;
-}
-
-.card__data {
-    height: 6rem;
-}
-
-.card__data h3 {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-    color: var(--first-color);
-    margin-top: var(--mb-2);
-    margin-left: var(--mb-2);
-}
-
-.card__data .card__descripition {
-    margin-left: var(--mb-2);
-}
-
-.card__data small {
-    font-weight: var(--font-light);
-    font-size: var(--normal-font-size);
-    margin-top: var(--mb-2);
-    margin-bottom: var(--mb-4);
-}
-
-.card__preci {
-    margin-top: var(--mb-3);
-}
-
-.card__preci span {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-    position: relative;
-    left: 1rem;
-    bottom: 1rem;
-}
-
-.card__cart {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    font-size: 1.6rem;
-    color: var(--light-color);
-    background-color: var(--first-color);
-    border-radius: 6px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.card__cart:hover {
-    background-color: var(--first-color_alt);
-}
-
-/*----------DELIVERY-----------*/
-.delivery {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/bg-delivery.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.delivery__container {
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 6px;
-    padding: 1rem;
-}
-.delivery__data h1{
-    margin: 0;
-}
-
-.delivery__data {
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 2rem;
-}
-
-.delivery__data a {
-    width: 50%;
-    margin-top: var(--mb-3);
-    letter-spacing: 3px;
-}
-
-/*----------CONTATO---------*/
-.contato__container {
-    padding: 1rem 2rem;
-}
-
-.contato__cta {
-    margin-bottom: var(--mb-3);
-    text-align: center;
-}
-
-.contato__title {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-    margin-bottom: var(--mb-2);
-}
-
-.contato__cta p {
-    font-weight: var(--normal-font-size);
-    font-size: var(--h3-font-size);
-    line-height: 28px;
-    margin-bottom: var(--mb-2);
-}
-
-.contato__cta a {
-    margin-bottom: var(--mb-2);
-}
-
-.contato__form .contato__title {
-    text-align: center;
-}
-
-.form-control {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.form-control label {
-    font-size: var(--small-font-size);
-}
-
-.form-control input,
-textarea {
-    font-size: var(--normal-font-size);
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    background: #ffffff;
-    border: 2px solid #75b985;
-    margin-bottom: var(--mb-2);
-}
-
-.form-control textarea {
-    resize: none;
-    outline: none;
-    margin-bottom: var(--mb-6);
-}
-
-.form-control button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-/*---------COMPARTILHAR-----------*/
-.compartilhar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-image: url(../img/bg-compartilar.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.compartilhar__container .section-title {
-    margin-top: var(--mb-3);
-}
-
-.compartilhar__container p {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-}
-
-.compartilhar__social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: var(--mb-2);
-    margin-bottom: var(--mb-3);
-}
-.compartilhar__social:hover > .insta,
-.compartilhar__social:hover > a{
-    color: var(--text-color);
-}
-
-.compartilhar__social a,
-.insta {
-    font-weight: var(--font-medium);
-    font-size: var(--h2-font-size);
-    color: var(--first-color);
-}
-
-.insta {
-    margin-top: var(--mb-1);
-    margin-right: var(--mb-1);
-}
-
-
 /*--------------FOOTER-----------------*/
-
-.footer section {
-
-    background-color: var(--light-color);
-}
-
-
 .footer__container {
     display: flex;
     justify-content: center;
@@ -615,7 +423,6 @@ textarea {
     display: flex;
     flex-direction: column;
     margin-bottom: var(--mb-5);
-    size: 10%;
 }
 
 .company .logo {
@@ -624,11 +431,6 @@ textarea {
     line-height: 29px;
     color: var(--first-color);
     letter-spacing: 4px;
-}
-
-.footer-logo {
-    width: 30%;
-    margin: auto;
 }
 
 .company small {
