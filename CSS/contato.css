@@ -197,6 +197,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 5rem 0;
+
 }
 
 
@@ -215,10 +216,12 @@ img {
         box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.145);
         z-index: var(--z-tooltip);
         transition: 0.4s;
+        
     }
 
     .nav__menu .logo{
         padding-left: 4rem;
+        
     }
 
     .nav__menu .nav__item {
@@ -234,7 +237,7 @@ img {
     }
 }
 
-.logo{
+.nome.logo{
     font-family: var(--font-logo);
     font-size: var(--h1-font-size);
     padding-top: 3.5rem;
@@ -246,8 +249,12 @@ img {
     
 }
 
+.nome-Fit {
+    font-family: var(--font-logoFit);
+}
+
 .img-logo {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin-top: 4px;
     
@@ -319,6 +326,53 @@ img {
 .scroll-top {
     visibility: visible;
     bottom: 1rem;
+}
+
+/*-------------HOME---------------*/
+
+.home {
+    background-color: var(--container-color);
+    
+}
+
+.home__container {
+    padding: 8rem 1rem;
+    
+}
+
+.home__data {
+    text-align: center;
+    margin-bottom: var(--mb-3);
+}
+
+.home__title {
+    font-size: var(--h1-font-size);
+    color: var(--text-color);
+}
+
+.home__title span {
+    font-family: var(--font-logo);
+    font-size: var(--big-font-size);
+    letter-spacing: 4px;
+    color: var(--first-color);
+}
+
+.home__subtitle {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    margin-bottom: var(--mb-5);
+}
+
+.home__btn {
+    padding: 0 0rem;
+    align-items: center;
+}
+
+.home__btn a {
+    margin-bottom: 1rem;
+    width: 100%;
+    
 }
 
 /*----------CONTATO---------*/
