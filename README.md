@@ -1,6 +1,8 @@
-Projeto 2 - Mudafit. Projeto desenvolvido em Squad para o curso Programadores Cariocas/Web fullstack para o SENAC/Resilia Unidade: SENAC - Campo Grande. Turma 02 - Programadores Cariocas 
+<h1>rojeto 2 - Mudafit</h1>
 
-Membros do Squad. Co facilitador: Bruna Lima Gestora de Conhecimento: Silvia Corrêa Gestora de Gente e Engajamento: Raquel Sacramento Colaboradora 1: Julia Araújo Colaboradora 2: Grazielle Firmino 
+Projeto desenvolvido em Squad para o curso Programadores Cariocas/Web fullstack para o SENAC/Resilia Unidade: SENAC - Campo Grande. Turma 02 - Programadores Cariocas 
+
+Membros do Squad. <strong>Co facilitador: Bruna Lima Gestora de Conhecimento: Silvia Corrêa Gestora de Gente e Engajamento: Raquel Sacramento Colaboradora 1: Julia Araújo Colaboradora 2: Grazielle Firmino</strong>
 
 Proposta: Ajudar um pequeno comerciante. 
 
