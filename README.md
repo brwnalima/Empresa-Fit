@@ -1,7 +1,10 @@
-#MudaFit
-O projeto "MudaFit" é a demonstração e desenvolvimento de um site sobre comidas fitness. Mostrando seu cardapio, seus utilizadores, entre outros.
-Obtendo um formulario interativo utilizando javascript, um layout utilizando HTML e CSS, além de outras variaveis.
-Os usuarios podem utiliza-lo para compras de comidas fitness(marmitas e sucos), adicionar ao seu carrinho, ler sobre os produtores dos serviços entregues, pedir via delivery, seus horarios de funcionamento, suas redes sociais e seu local fisico de funcionamento(ficticio). Sendo o Primeiro projeto feito em squad do curso Programadores Cariocas, um projeto senac + resilia
+Projeto 2 - Mudafit. Projeto desenvolvido em Squad para o curso Programadores Cariocas/Web fullstack para o SENAC/Resilia Unidade: SENAC - Campo Grande. Turma 02 - Programadores Cariocas 
 
-Squad- Bruna Lima, Grazielle Firmino, Julia Araujo, Raquel Sacramento e Silvia Corrêa) 
- 
+Membros do Squad. Co facilitador: Bruna Lima Gestora de Conhecimento: Silvia Corrêa Gestora de Gente e Engajamento: Raquel Sacramento Colaboradora 1: Julia Araújo Colaboradora 2: Grazielle Firmino 
+
+Proposta: Ajudar um pequeno comerciante. 
+
+O projeto foi idealizado com um cliente fictício, mas inspirado em um comerciante real, por questões de direitos autorais. 
+
+Obtendo um formulário interativo utilizando Javascript, um layout utilizando HTML e CSS, além de outras variáveis. Os usuários podem utilizá-lo para compras de comidas fitness (marmitas e sucos), adicionar ao seu carrinho, ler sobre os produtores dos serviços entregues, pedir via delivery, seus horários de funcionamento, suas redes sociais e seu local físico de funcionamento 
+
