@@ -1,4 +1,4 @@
-<h1>rojeto 2 - Mudafit</h1>
+<h1>Projeto 2 - Mudafit</h1>
 
 Projeto desenvolvido em Squad para o curso Programadores Cariocas/Web fullstack para o SENAC/Resilia Unidade: SENAC - Campo Grande. Turma 02 - Programadores Cariocas 
 
