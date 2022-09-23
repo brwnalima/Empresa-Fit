@@ -49,3 +49,43 @@ function scrollTop(){
     if(this.scrollY >= 560) scrollTop.classList.add('scroll-top'); else scrollTop.classList.remove('scroll-top')
 }
 window.addEventListener('scroll', scrollTop)
+
+/*----------VALIDANDO FORM-------------*/
+
+function validar(){
+
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var mensagem = document.getElementById("mensagem");
+
+
+        if(name.value == "" || name.value.length < 8) {
+        alert( "Preencha campo NOME corretamente!");
+        caixa_name.style.display = 'block';
+        name.focus();
+        return false;
+        }
+
+        if(email.value=="" || email.value.indexOf('@') ==-1 || email.value.indexOf('.') ==-1 ) {
+        alert("Preencha campo E-MAIL corretamente!");
+        email.focus();
+        return false;
+        }
+        
+        if (mensagem.value == "")
+        {
+        alert( "Preencha o campo MENSAGEM!" );
+        mensagem.focus();
+        return false;
+        }
+        
+        if (mensagem.value.length < 50 ) {
+        alert( "É necessario preencher o campo MENSAGEM com mais de 50 caracteres!");
+        mensagem.focus();
+        return false;
+        }
+
+        alert("Mensagem enviada!");
+        return true;
+
+}
