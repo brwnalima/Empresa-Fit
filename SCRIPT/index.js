@@ -59,7 +59,7 @@ function validar(){
     var mensagem = document.getElementById("mensagem");
 
 
-        if(name.value == "" || name.value.length < 8) {
+        if(name.value == "" || name.value.length < 3) {
         alert( "Preencha campo NOME corretamente!");
         caixa_name.style.display = 'block';
         name.focus();
@@ -79,7 +79,7 @@ function validar(){
         return false;
         }
         
-        if (mensagem.value.length < 50 ) {
+        if (mensagem.value.length < 10 ) {
         alert( "É necessario preencher o campo MENSAGEM com mais de 50 caracteres!");
         mensagem.focus();
         return false;
