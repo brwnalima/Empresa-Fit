@@ -61,7 +61,6 @@ function validar(){
 
         if(name.value == "" || name.value.length < 8) {
         alert( "Preencha campo NOME corretamente!");
-        caixa_name.style.display = 'block';
         name.focus();
         return false;
         }
