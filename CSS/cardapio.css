@@ -327,7 +327,7 @@ img {
 }
 
 /*---------- CARDAPIO------------*/
-.cardapio__container {
+.contato-container {
     padding: 5rem 4rem;
     background-color: var(--container-color);
 }
